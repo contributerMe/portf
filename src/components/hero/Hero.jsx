@@ -69,7 +69,7 @@ const Hero = () => {
         >
           <motion.h2 variants={textVariants}>Nimesh Maslekar</motion.h2>
           <motion.h1 variants={textVariants}>
-           I am a <span className="spantag" ref={el} />
+           I am a <span className="spantag" style ={{color:"orange"}}ref={el} />
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>

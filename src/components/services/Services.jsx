@@ -44,8 +44,8 @@ const Services = () => {
       <motion.div className="listContainer" variants={variants}>
        
         <h2>
-          <motion.span whileHover={{color:"orange"}} > </motion.span>
-        I'm an computer science student in my prefinal year at IIIT Nagpur. I'm skilled in  <motion.span whileHover={{color:"orange"}} > MERN stack web development </motion.span>. I have a strong background in both frontend and backend technologies, having solved over  <motion.span whileHover={{color:"orange"}} > 500</motion.span> coding problems on a variety of coding platforms. My practical background in developing dependable web application is evidence of my commitment to creating effective solutions. With my creative thinking and dedication to quality, I'm ready to contribute significantly to the team and am eager to keep learning about and experimenting with new technologies.
+          <motion.span style={{color:"orange"}} > </motion.span>
+        I'm an computer science student in my prefinal year at IIIT Nagpur. I'm skilled in  <motion.span whileHover={{color:"orange"}} > MERN stack web development </motion.span>. I have a strong background in both frontend and backend technologies, having solved over  <motion.span whileHover={{color:"orange"}} > 500</motion.span> problems on a variety of coding platforms. My practical background in developing dependable web application is evidence of my commitment to creating effective solutions. With my creative thinking and dedication to quality, I'm ready to contribute significantly to the team and am eager to keep learning about and experimenting with new technologies.
         </h2>
       </motion.div>
     </motion.div>
