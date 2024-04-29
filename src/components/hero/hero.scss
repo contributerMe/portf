@@ -1,0 +1,90 @@
+@import "../../app.scss";
+
+.hero {
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  background: linear-gradient(180deg, #0c0c1d, #404085);
+  position: relative;
+
+  .wrapper {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+
+    .textContainer {
+      width:50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+
+      h2 {
+        font-size: 50px;
+        color: rgb(152, 97, 208);
+        letter-spacing: 2px;
+      }
+
+      h1 {
+        font-size: 35px;
+      .spantag{
+          color: orange;
+      }
+       
+      }
+
+      .buttons {
+        z-index:1;
+        button {
+          padding: 20px;
+          border: 1px solid white;
+          border-radius: 10px;
+          background-color: transparent;
+          color: white;
+          margin-right: 20px;
+          font-weight: 300;
+          cursor: pointer;
+      
+          // Default styles for button
+          transition: background-color 0.3s ease;
+      
+          &:hover {
+            background-color: rgba(206, 210, 217, 0.925); 
+            color: black;
+          }
+        }
+      }
+      
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+
+  .imageContainer {
+    height: 70%;
+    margin-right: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .slidingTextContainer {
+    position: absolute;
+    font-size: 30vh;
+    bottom: -40px;
+    white-space: nowrap;
+    color: #ffffff60;
+    width: 50%;
+    font-weight: bold;
+  }
+}
